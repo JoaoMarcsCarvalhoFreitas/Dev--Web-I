@@ -1,0 +1,107 @@
+body{
+    background-image: url("/Cupcake/projetoCupCake/imagem/cupcake.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.alice-regular {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+.box_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1480px;
+    width: 1588px;
+    gap: 20px;
+    border-radius: 3px;
+    padding: 0px;
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.informacoes{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 1440px;
+    width: 800px;
+    gap: 20px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+
+
+}
+
+.imagem-cabecalho{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+
+}
+
+
+
+.imagem-cupcake{
+    
+    border-radius: 10%;
+    padding: 13px;
+}
+
+.textos{
+    padding-inline: 40px;
+
+}
+
+.descricao-preparo{
+    
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #291B1A;
+
+}
+
+h2{
+    font-size: 24px;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #291B1A;
+
+}
+
+
+p{
+    font-size: 16px;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #573A37;
+}
+
+ul{
+    color: #573A37;
+}
